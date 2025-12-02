@@ -1,6 +1,6 @@
 <template>
   <div class="field">
-    <!-- Linha da máquina -->
+   
     <div class="monster-row enemy-row">
       <div class="monster-slot" :class="{ 'defense-slot': enemyCard?.mode === 'defense' }">
         <transition name="card-fade">
@@ -13,7 +13,6 @@
       </div>
     </div>
 
-    <!-- Linha do jogador -->
     <div class="monster-row player-row">
       <div class="monster-slot" :class="{ 'defense-slot': playerCard?.mode === 'defense' }">
         <transition name="card-fade">
