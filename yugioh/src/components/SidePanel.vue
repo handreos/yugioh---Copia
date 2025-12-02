@@ -1,6 +1,6 @@
 <template>
   <div class="side-panel">
-    <!-- Máquina -->
+    
     <div class="char-box">
       <div class="char-label">Máquina</div>
       <img src="/imagens/kaiba.png" class="char-img" />
@@ -10,7 +10,6 @@
       <div class="life-text">{{ enemyLife }} LP</div>
     </div>
 
-    <!-- Jogador -->
     <div class="char-box">
       <div class="char-label">Jogador</div>
       <img src="/imagens/yugi.png" class="char-img" />
